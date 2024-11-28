@@ -1,6 +1,6 @@
 # Alcove Releases
 
-This repository is used for hosting public releases of Alcove, as well as displaying the changelogs.
+This repository is used for hosting public releases of Alcove, as well as the changelogs.
 
 **Alcove** is not open source and this repo *DOES NOT* contain any source code for Alcove.
 
