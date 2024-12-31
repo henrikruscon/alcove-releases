@@ -1,0 +1,60 @@
+name: Bug Report
+description: Report a problem in Alcove
+labels: [bug]
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        *Before reporting:*
+        - Confirm the problem is reproducible on the [**latest release**](https://github.com/henrikruscon/alcove-releases/releases/latest)
+        - Search [existing issues](https://github.com/henrikruscon/alcove-releases/issues?q=is%3Aopen+is%3Aissue+label%3Abug) (including [closed](https://github.com/henrikruscon/alcove-releases/issues?q=is:issue+is:closed+label:bug))
+
+        Usage or "How to" questions will be closed.
+  - type: textarea
+    attributes:
+      label: "Problem"
+      description: "Describe the current behavior. May include crash logs, images, or videos."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Steps to reproduce"
+      description: "List the steps to reproduce the problem."
+      placeholder: |
+        Open Alcove
+        Enable do not disturb focus mode
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Expected behavior"
+      description: "Describe the behavior you expect."
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: "Menu bar affecting apps"
+      description: "Are there any menubar affecting apps? (e.g. Bartender, Ice) If so, list them."
+      placeholder: "Bartender"
+    validations:
+      required: false
+
+  - type: input
+    attributes:
+      label: "Alcove version"
+      description: |
+        1.  Right click the Alcove notch
+        2.  Click Settings
+        3.  Click on "Alcove" on the macOS menu bar
+        4.  Click "About Alcove"
+      placeholder: "1.1.0 (12)"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: "Operating system/version"
+      placeholder: "macOS 15.2"
+    validations:
+      required: true
