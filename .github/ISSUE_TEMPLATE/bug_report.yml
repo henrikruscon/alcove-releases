@@ -61,7 +61,7 @@ body:
       required: true
   - type: input
     attributes:
-      label: "Operating system/version"
-      placeholder: "macOS 15.2"
+      label: "macOS version"
+      placeholder: "15.2"
     validations:
       required: true
