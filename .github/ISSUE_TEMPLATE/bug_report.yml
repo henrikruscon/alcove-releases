@@ -52,6 +52,13 @@ body:
       placeholder: "1.1.0 (12)"
     validations:
       required: true
+
+  - type: input
+    attributes:
+      label: "Mac/MacBook model"
+      placeholder: "MacBook Air M2"
+    validations:
+      required: true
   - type: input
     attributes:
       label: "Operating system/version"
