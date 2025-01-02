@@ -47,7 +47,7 @@ body:
       description: |
         1.  Right click the Alcove notch
         2.  Click Settings
-        3.  Click on "Alcove" on the macOS menu bar
+        3.  Click on "Alcove" on the left side of the macOS menu bar
         4.  Click "About Alcove"
       placeholder: "1.1.0 (12)"
     validations:
