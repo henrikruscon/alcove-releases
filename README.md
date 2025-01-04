@@ -4,4 +4,4 @@ This repository is used for hosting public releases of Alcove, as well as the ch
 
 Alcove is **not** open source and this repo *DOES NOT* contain any source code for Alcove.
 
-If you have any questions or issues, please go file them.
+If you have any feature requests or issues, please go file them.
