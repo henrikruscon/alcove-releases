@@ -8,4 +8,4 @@ If you have a feature request or bug report, please go file an [issue](https://g
 
 ## Community
 
-If you want to partake in the community, feel free to join the [Discord server](https://discord.gg/3ExtMdHxRA).
+If you want to partake in the community or simply have a question, feel free to join Alcove on [Discord](https://discord.gg/3ExtMdHxRA).
