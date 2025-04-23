@@ -3,11 +3,6 @@ description: Request an enhancement for Alcove
 labels: [enhancement]
 body:
 
-  - type: markdown
-    attributes:
-      value: |
-        Before requesting: search [existing feature requests](https://github.com/henrikruscon/alcove-releases/labels/enhancement) and check the [FAQ](https://tryalcove.com/faqs).
-
   - type: textarea
     attributes:
       label: "Problem"
@@ -22,3 +17,17 @@ body:
       description: "Describe what the new feature or behavior would look like. How does it solve the problem?"
     validations:
       required: true
+
+  - type: checkboxes
+    attributes:
+      label: "Agreements"
+      description: "Check the following before submitting the feature request."
+      options:
+        - label: "My title is concise but descriptive and specific."
+          required: true
+        - label: "I am on the latest Alcove release."
+          required: true
+        - label: "I have searched for [existing feature requests](https://github.com/henrikruscon/alcove-releases/issues?q=is:issue%20label:enhancement%20)."
+          required: true
+        - label: "I have read the [FAQ](https://tryalcove.com/faqs)."
+          required: true
