@@ -31,3 +31,7 @@ body:
           required: true
         - label: "I have read the [FAQ](https://tryalcove.com/faqs)."
           required: true
+        - label: "This is not a usage or 'How to' question."
+          required: true
+        - label: "This is not a \"I didn't receive my license\" or a \"I want a refund\" issue."
+          required: true
