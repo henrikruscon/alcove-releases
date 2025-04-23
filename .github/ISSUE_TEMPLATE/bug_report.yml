@@ -3,18 +3,10 @@ description: Report a problem in Alcove
 labels: [bug]
 body:
 
-  - type: markdown
-    attributes:
-      value: |
-        *Before reporting:*
-        - Confirm the problem is reproducible on the [**latest release**](https://github.com/henrikruscon/alcove-releases/releases/latest)
-        - Search [existing issues](https://github.com/henrikruscon/alcove-releases/issues?q=is%3Aopen+is%3Aissue+label%3Abug) (including [closed](https://github.com/henrikruscon/alcove-releases/issues?q=is:issue+is:closed+label:bug)) and check the [FAQ](https://tryalcove.com/faqs)
-
-        Usage or "How to" questions will be closed.
   - type: textarea
     attributes:
       label: "Problem"
-      description: "Describe the current behavior. May include crash logs, images, or videos."
+      description: "Describe the current behavior. This may include crash logs, images, or videos."
     validations:
       required: true
   - type: textarea
@@ -65,3 +57,29 @@ body:
       placeholder: "15.2"
     validations:
       required: true
+
+  - type: checkboxes
+    attributes:
+      label: "macOS Beta"
+      description: "Are you currently on the beta version of macOS?"
+      options:
+        - label: "Yes"
+          required: false
+
+  - type: checkboxes
+    attributes:
+      label: "Agreements"
+      description: "Check the following before submitting the bug report."
+      options:
+        - label: "My title is concise but descriptive and specific."
+          required: true
+        - label: "I am on the latest Alcove release."
+          required: true
+        - label: "I have searched for [existing bug reports](https://github.com/henrikruscon/alcove-releases/issues?q=is%3Aissue+label%3Abug)."
+          required: true
+        - label: "I have read the [FAQ](https://tryalcove.com/faqs)."
+          required: true
+        - label: "This is not a usage or 'How to' question."
+          required: true
+        - label: "This is not a \"I didn't receive my license\" or a \"I want a refund\" issue."
+          required: true
