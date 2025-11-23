@@ -81,5 +81,5 @@ body:
           required: true
         - label: "This is not a usage or 'How to' question."
           required: true
-        - label: "This is not a \"I didn't receive my license\" or a \"I want a refund\" issue."
+        - label: "This is not an \"I didn't receive my license\" or an \"I want a refund\" issue."
           required: true
