@@ -83,3 +83,5 @@ body:
           required: true
         - label: "This is not an \"I didn't receive my license\" or an \"I want a refund\" issue."
           required: true
+        - label: "I have made sure that my issue is not a duplicate of the pinned issues."
+          required: true
