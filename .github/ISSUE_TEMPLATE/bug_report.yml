@@ -27,8 +27,8 @@ body:
 
   - type: input
     attributes:
-      label: "Menu bar affecting apps"
-      description: "Are there any menubar affecting apps? (e.g. Bartender, Ice) If so, list them."
+      label: "Menu bar/display affecting apps"
+      description: "Are there any menubar/display affecting apps? (e.g. Bartender, Ice, BetterDisplay) If so, list them."
       placeholder: "Bartender"
     validations:
       required: false
