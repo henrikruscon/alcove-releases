@@ -1,0 +1,26 @@
+name: Crowdin Language Request
+description: Request a new Crowdin language for Alcove
+labels: [localization,enhancement]
+body:
+
+  - type: input
+    attributes:
+      label: "Language request"
+      description: "What language would you like to help translate for Alcove?"
+      placeholder: "English"
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: "Agreements"
+      description: "Check the following before submitting the feature request."
+      options:
+        - label: "My title is concise."
+          required: true
+        - label: "I have searched for [existing feature requests](https://github.com/henrikruscon/alcove-releases/issues?q=is%3Aissue%20label%3Aenhancement%20label%3Alocalization)."
+          required: true
+        - label: "This is not a usage or 'How to' question."
+          required: true
+        - label: "This is not an \"I didn't receive my license\" or an \"I want a refund\" issue."
+          required: true
